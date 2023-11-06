@@ -1,0 +1,7 @@
+pecas = ['porta', 'retrovisor', 'pneus', 'paralama']
+verificar = (input('Digite sua peça:'))
+
+if verificar in pecas:
+    print('Peça encontrada')
+else:
+    print('Essa peça não esta cadastrada')
