@@ -1,13 +1,11 @@
-ler = open('Doc.txt', 'r')
-ler1 = ler.read().split()
-print(ler.read())
-print(ler1)
+ler = open('Doc.txt', 'r').read()
+ler1 = ler.split()
 
 texto = []
 for l in ler1:
     texto.append(ler1.count(l))
-# texto = [ler1.count(l) for l in ler1]
-# print('\n' + texto + '\n')
-print('\n' + str(ler1) + '\n')
-print('\n' + str(texto) + '\n')
-print('\n' + str(list(zip(ler1, texto))) + '\n')
+
+print("String\n" + ler + "\n")
+print("Lista\n" + str(ler1) + "\n")
+print("Frequências\n" + str(texto) + "\n")
+print("Pares\n" + str(list(zip(ler1, texto))))
