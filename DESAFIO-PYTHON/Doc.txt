@@ -1,0 +1,1 @@
+Agora desejamos contar a frequência de cada palavra em nossa lista. Já viu que é fácil de processar uma lista utilizando um for loop. Tente salvar e executar o exemplo a seguir. Lembre-se de que += informa ao programa para acrescentar algo ao final de uma variável existente.

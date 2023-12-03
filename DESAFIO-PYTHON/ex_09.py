@@ -1,0 +1,5 @@
+texto = input('Digite um texto simples: ')
+contador = len(texto)
+contador_1 = texto.count('a')
+print(contador)
+print(contador_1)
